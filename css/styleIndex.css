@@ -475,7 +475,7 @@ body {
   }
 }
 
-@media (min-width: 991px) and (max-width: 1225px) {
+@media (min-width: 991px) and (max-width: 1925px) {
   @media (min-width: 991px) {
     .hamburger {
       display: none;
@@ -533,7 +533,7 @@ body {
   }
   .card {
     width: 33%;
-    height: 450px;
+    height: 430px;
     font-size: 10px;
   }
 
