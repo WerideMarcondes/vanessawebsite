@@ -42,7 +42,6 @@ body {
   background-color: #e1e8ed;
   border-radius: 30px;
   color: black;
-  padding: 10px;
 }
 
 .navbarindex {
@@ -143,12 +142,12 @@ img {
   }
 
   .corporate {
-    font-weight: bold;
-    color: goldenrod;
-    margin-right: auto;
-    background-color: #e1e8ed;
-    border-radius: 30px;
-    color: black;
+    font-size: 20px;
+  font-weight: bold;
+  margin-right: auto;
+  background-color: #e1e8ed;
+  border-radius: 30px;
+  color: black;
   }
   .nav-link {
     font-size: 16px;
@@ -237,14 +236,16 @@ img {
     height: 70px; /* Altura fixa */
     text-align: right;
     margin-top: 0px;
+    
   }
   .corporate {
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: auto;
-    background-color: #e1e8ed;
-    border-radius: 30px;
-    color: black;
+   font-size: 20px;
+  font-weight: bold;
+  margin-right: auto;
+  background-color: #e1e8ed;
+  border-radius: 30px;
+  color: black;
+    
   }
 
   .offcanvas-body {
