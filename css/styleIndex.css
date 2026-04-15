@@ -15,7 +15,6 @@ body {
   font-family: "Tangerine", serif;
 }
 
-
 .mainnav {
   width: 100%; /* Largura total */
   position: fixed; /* Opcional: fixa no topo */
@@ -35,9 +34,8 @@ body {
 .corporate {
   font-size: 20px;
   font-weight: bold;
-  background-color: #e1e8ed;
-  color: black;
-  border-radius: 30PX;
+  color: #e1e8ed;
+  border-radius: 30px;
   margin-right: auto;
   padding: 10px;
 }
@@ -71,7 +69,6 @@ body {
 
 .card-body {
   text-align: justify;
-  
 }
 
 #vision {
@@ -241,9 +238,8 @@ body {
   .corporate {
     font-size: 15px;
     font-weight: bold;
-    background-color: #e1e8ed;
-    color: black;
-  border-radius: 30PX;
+    color: #e1e8ed;
+    border-radius: 30px;
     margin-right: auto;
     padding: 0px;
     font-family: "Tangerine", serif;
@@ -251,9 +247,8 @@ body {
 
   .corporate {
     font-family: "Tangerine", serif;
-    background-color: #e1e8ed;
-    color: black;
-  border-radius: 30PX;
+    color: #e1e8ed;
+    border-radius: 30px;
     font-size: 18px;
   }
   .card {
@@ -502,9 +497,8 @@ body {
   .corporate {
     font-size: 20px;
     font-weight: bold;
-    background-color: #e1e8ed;
-  border-radius: 30PX;
-    color: black;
+    border-radius: 30px;
+    color: #e1e8ed;
     margin-right: auto;
     padding: 10px;
   }
@@ -540,7 +534,7 @@ body {
   .card-image-about {
     max-width: 100%;
     height: 200px;
-  background-image: url("../img/backgroud/bkg\ kitchen\ .jpeg");
+    background-image: url("../img/backgroud/bkg\ kitchen\ .jpeg");
     background-size: cover; /* Faz a imagem cobrir o card */
     background-position: center; /* Centraliza */
     background-repeat: no-repeat; /* Evita repetição */
