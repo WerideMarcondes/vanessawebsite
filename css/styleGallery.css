@@ -256,7 +256,7 @@ img {
   }
 
   .activa img {
-    width: 400px; /* Largura fixa */
+    width: 375px; /* Largura fixa */
     height: 30rem; /* Altura fixa */
     object-fit: cover; /* Preenche a caixa, cortando o excesso */
     /* Ou use 'contain' para que a imagem caiba inteira */
