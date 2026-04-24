@@ -356,6 +356,7 @@ body {
     background-color: #f5f6f8;
     margin-top: 0px;
     border-radius: 0;
+    height: 450px;
   }
 
   #vision {
@@ -363,7 +364,7 @@ body {
     background-color: #e1e8ed;
     margin-top: 0px;
     border-radius: 0;
-    height: 610px;
+    height: 600px;
   }
 
   .card-title {
@@ -507,6 +508,7 @@ body {
     background-color: #e1e8ed;
     margin-top: 0px;
     border-radius: 0;
+    height: 670px;
   }
 
   .card-image-about {
