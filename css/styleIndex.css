@@ -254,7 +254,7 @@ body {
 
     .card-body {
   text-align: justify;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -354,7 +354,7 @@ body {
     margin-top: 0px;
     background-color: #e6ebed;
     border-radius: 0;
-    height: 300px;
+    height: 350px;
   }
 
   #mission {
@@ -370,7 +370,7 @@ body {
     background-color: #e1e8ed;
     margin-top: 0px;
     border-radius: 0;
-    height: 600px;
+    height: 650px;
   }
 
   .card-title {
@@ -593,7 +593,7 @@ body {
 
   .card-body {
   text-align: justify;
-  font-size: 19px;
+  font-size: 15px;
 }
 
   body {
