@@ -104,3 +104,34 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+ 
+  let timer = 0;
+let delay = 200;
+let clicked = false;
+
+const image = document.querySelectorAll(".card-container");
+  image.forEach((image) => {
+    image.addEventListener("click", () => {
+      image.classList.add("activa");
+    image.addEventListener('click', () => {
+    if (clicked) {
+        clearTimeout(timer);
+       location.reload();
+        clicked = false;
+    } 
+    else {
+        clicked = true;
+        timer = setTimeout(() => {
+            clicked = false;
+        }, delay);
+    }
+});
+    });
+  });
+
+
+});
