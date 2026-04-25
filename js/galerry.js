@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
       image.classList.remove("card-container");
       posconstruction = document.querySelectorAll(".card-container");
       for (var i = 0; i < images.length; i++) {
-        if (!image[i].classList.contains("activa")) {
+        if (image[i].classList.contains("activa")) {
           image[i].hidden = false;
         }
       }
