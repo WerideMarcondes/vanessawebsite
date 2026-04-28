@@ -4,12 +4,17 @@ body {
   background-color: black;
 }
 
+/*botao navbar hamburguer*/
+.navbar-toggler{
+  background-color: #e04078;
+}
+
 
 .container {
   margin-top: 100px;
   width: 100%;
   min-height: 100%;
-  font-family: "Tangerine", serif;
+  font-family: "Roboto",;
 }
 
 .mainnav {
@@ -20,7 +25,7 @@ body {
   z-index: 1000;
   justify-content: center;
   height: 70px;
-  font-family: "Tangerine", serif;
+  font-family: "Roboto",;
 }
 
 .navbar {
@@ -32,12 +37,12 @@ body {
   text-align: center;
   color: #e04078;
   font-size: 20px;
-  font-weight: bolder;
+ 
 }
 
 .style_corporate::first-letter {
   color: #e04078;
-  font-family: "Tangerine", serif;
+  font-family: "Roboto",;
   font-size: 25px;
   text-shadow: 2px 2px 2px #c4c1c1;
 }
@@ -45,7 +50,6 @@ body {
 
 .corporate {
   font-size: 20px;
-  font-weight: bold;
   margin-right: auto;
   border-radius: 30px;
   color: #e1e8ed;
@@ -81,16 +85,15 @@ body {
   height: 70px;
   color: white;
   font-size: 20px;
-  background-color: #212529;
   /* border: 1px solid #000; Espessura, estilo (solid) e cor  */
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Tangerine", serif;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Roboto",;
+  
 }
-.fa {
-  color: white;
+.icone_navbar-final {
+ color: #e04078;
   font-size: 26px;
 }
 .navbar-final a {
@@ -108,7 +111,7 @@ body {
 .card-title {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
+ 
 }
 
 .card-text {
@@ -182,7 +185,7 @@ img {
   body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white
   }
   .mainnav {
     display: none;
@@ -208,7 +211,7 @@ img {
   }
   .corporate {
     font-size: 20px;
-    font-weight: bold;
+
     margin-right: auto;
     border-radius: 30px;
     color: #e1e8ed;
@@ -304,7 +307,7 @@ img {
   body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
   }
 
   .container {
@@ -327,7 +330,7 @@ img {
   }
   .corporate {
     font-size: 20px;
-    font-weight: bold;
+
     color: #e1e8ed;
     border-radius: 50px;
     margin-right: auto;
