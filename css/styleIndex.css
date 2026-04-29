@@ -8,9 +8,12 @@ body {
   font-size: 20px;
   text-shadow: 2px 2px 2px #1c1919;
 }
-
+.navbar-brand {
+  color: black;
+}
 .navbar_final_text{
-   color: white;
+   color: black;
+   font-weight: bolder;
   font-family: "Roboto", ;
   font-size: 18px;
   text-shadow: 2px 2px 2px #c4c1c1;
@@ -60,8 +63,9 @@ body {
 }
 
 .style_corporate::first-letter {
-  color: white;
+  color: black;
   font-family: "Roboto", ;
+  font-weight: bolder;
   font-size: 25px;
   text-shadow: 2px 2px 2px white;
 }
@@ -92,7 +96,7 @@ body {
 .corporate {
   font-size: 20px;
   
-  color: #e1e8ed;
+  color: black;
   border-radius: 30px;
   margin-right: auto;
   padding: 10px;
@@ -341,7 +345,7 @@ body {
   .corporate {
     font-size: 15px;
     
-    color: #e1e8ed;
+    color: black;
     border-radius: 30px;
     margin-right: auto;
     padding: 0px;
@@ -350,7 +354,7 @@ body {
 
   .corporate {
     font-family:"Roboto", ;
-    color: #e1e8ed;
+    color: black;
     border-radius: 30px;
     font-size: 18px;
   }
@@ -629,7 +633,7 @@ body {
     font-size: 20px;
     
     border-radius: 30px;
-    color: #e1e8ed;
+    color:black;
     margin-right: auto;
     padding: 10px;
   }

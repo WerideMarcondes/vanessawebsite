@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  margin-top: 100px;
+  margin-top: 70px;
   width: 100%;
   min-height: 100%;
   font-family: "Roboto",;
@@ -39,8 +39,15 @@ body {
  
 }
 
+.navbar-brand{
+  color:black;
+  font-family: "Roboto",;
+  font-size: 25px;
+  
+}
+
 .style_corporate::first-letter {
-  color: white;
+  color:black;
   font-family: "Roboto",;
   font-size: 25px;
   text-shadow: 2px 2px 2px white;
@@ -51,7 +58,7 @@ body {
   font-size: 20px;
   margin-right: auto;
   border-radius: 30px;
-  color: #e1e8ed;
+  color: black;
 }
 
 .navbarindex {
@@ -99,8 +106,9 @@ body {
 }
 
 .navbar_final_text{
-   color: white;
+   color: black;
   font-family: "Roboto", ;
+  font-weight: bolder;
   font-size: 18px;
   text-shadow: 2px 2px 2px #c4c1c1;
 }
@@ -205,7 +213,7 @@ img {
     margin: auto;
   }
   .pictures {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   .navbar-title {
@@ -223,13 +231,14 @@ img {
 
     margin-right: auto;
     border-radius: 30px;
-    color: #e1e8ed;
+    color: black;
   }
   .nav-link {
     font-size: 16px;
   }
   .corporate {
     font-size: 17px;
+    color: black;
   }
   .offcanvas-body {
     text-align: right;
@@ -338,7 +347,7 @@ img {
   .corporate {
     font-size: 20px;
 
-    color: #e1e8ed;
+    color: black;
     border-radius: 50px;
     margin-right: auto;
     padding: 10px;
@@ -348,7 +357,7 @@ img {
     text-align: right;
   }
   .pictures {
-    margin-top: 90px;
+    margin-top: 70px;
   }
   #offcanvasDarkNavbar {
     width: 250px; /* Largura fixa */
