@@ -1,11 +1,19 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
+  
 }
 .icone_navbar-final {
- color: #e04078;
-  font-size: 26px;
+ color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #1c1919;
+}
+
+.navbar_final_text{
+   color: white;
+  font-family: "Roboto", ;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px #c4c1c1;
 }
 .container {
   margin-top: 100px;
@@ -17,7 +25,7 @@ body {
 .special_text{
     color: #e04078;
   font-size: 25px;
-  font-family: "Tangerine", ;
+  font-family: "Tangerine";
   text-shadow: 4px 4px 4px #aaa;
 }
 
@@ -48,14 +56,14 @@ body {
 
 /*botao navbar hamburguer*/
 .navbar-toggler{
-  background-color: #e04078;
+  background-color: black;
 }
 
 .style_corporate::first-letter {
-  color: #e04078;
+  color: white;
   font-family: "Roboto", ;
   font-size: 25px;
-  text-shadow: 2px 2px 2px #c4c1c1;
+  text-shadow: 2px 2px 2px white;
 }
 
 .navbar {
@@ -119,9 +127,9 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 70px;
+  height: 60px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   /* border: 1px solid #000; Espessura, estilo (solid) e cor  */
   display: flex;
   justify-content: center;
@@ -147,12 +155,12 @@ body {
 }
 
 #mission {
-  color: black;
+  color: white;
   background-color: #275b88;
   height: 600px;
 }
 #vision {
-  color: black;
+  color: white;
   background-color: #7299b5;
   height: 600px;
 }
@@ -356,7 +364,7 @@ body {
     margin-top: 0px;
     background-color: white;
     border-radius: 0;
-    height: 420px;
+    height: 370px;
   }
 
   #mission {
@@ -372,7 +380,7 @@ body {
     background-color: white;
     margin-top: 0px;
     border-radius: 0;
-    height: 650px;
+    height: 600px;
   }
 
   .card-title {
@@ -612,7 +620,7 @@ body {
   }
 
 .navbar-title::first-letter {
-  color: #e04078;
+  color: white;
   font-family: "Roboto", ;
   font-size: 25px;
 }
