@@ -9,14 +9,12 @@ body {
   text-shadow: 2px 2px 2px #1c1919;
 }
 .navbar-brand {
-  color: black;
+  color:white;
 }
 .navbar_final_text{
-   color: black;
-   font-weight: bolder;
+   color:white;
   font-family: "Roboto", ;
   font-size: 18px;
-  text-shadow: 2px 2px 2px #c4c1c1;
 }
 .container {
   margin-top: 100px;
@@ -53,21 +51,20 @@ body {
   text-align: center;
   color: #e04078;
   font-size: 20px;
-  
 }
 
 
 /*botao navbar hamburguer*/
 .navbar-toggler{
   background-color: black;
+  height: 30;
 }
 
 .style_corporate::first-letter {
-  color: black;
+  color: white;
   font-family: "Roboto", ;
-  font-weight: bolder;
   font-size: 25px;
-  text-shadow: 2px 2px 2px white;
+  
 }
 
 .navbar {
@@ -95,8 +92,7 @@ body {
 
 .corporate {
   font-size: 20px;
-  
-  color: black;
+  color: white;
   border-radius: 30px;
   margin-right: auto;
   padding: 10px;
@@ -134,7 +130,6 @@ body {
   height: 60px;
   color: white;
   font-size: 18px;
-  /* border: 1px solid #000; Espessura, estilo (solid) e cor  */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -339,13 +334,11 @@ body {
   .navbar {
     width: 100%; /* Largura fixa */
     height: 70px; /* Altura fixa */
-    text-align: right;
   }
 
   .corporate {
     font-size: 15px;
-    
-    color: black;
+    color: white;
     border-radius: 30px;
     margin-right: auto;
     padding: 0px;
@@ -354,7 +347,7 @@ body {
 
   .corporate {
     font-family:"Roboto", ;
-    color: black;
+    color: white;
     border-radius: 30px;
     font-size: 18px;
   }
@@ -368,7 +361,7 @@ body {
     margin-top: 0px;
     background-color: white;
     border-radius: 0;
-    height: 370px;
+    height: 360px;
   }
 
   #mission {
@@ -631,9 +624,8 @@ body {
 
   .corporate {
     font-size: 20px;
-    
     border-radius: 30px;
-    color:black;
+    color:white;
     margin-right: auto;
     padding: 10px;
   }
