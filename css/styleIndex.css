@@ -1,32 +1,27 @@
 body {
   margin: 0;
   padding: 0;
-  
 }
 .icone_navbar-final {
- color: white;
-  font-size: 20px;
-  text-shadow: 2px 2px 2px #1c1919;
+  color: #8a3d4d;
+  font-size: 25px;
 }
 .navbar-brand {
-  color:white;
+  color: white;
 }
-.navbar_final_text{
-   color:white;
-  font-family: "Roboto", ;
-  font-size: 18px;
+.navbar_final_text {
+  color: #8a3d4d;
+  font-size: 25px;
 }
 .container {
   margin-top: 100px;
   width: 100%;
   min-height: 100%;
-  font-family: "Tangerine", ;
 }
 
-.special_text{
-    color: #e04078;
+.special_text {
+  color: black;
   font-size: 25px;
-  font-family: "Tangerine";
   text-shadow: 4px 4px 4px #aaa;
 }
 
@@ -38,7 +33,6 @@ body {
   z-index: 1000;
   justify-content: center;
   height: 70px;
-  font-family: "Tangerine", ;
 }
 
 .navbar {
@@ -49,29 +43,27 @@ body {
 
 .navbar-title {
   text-align: center;
-  color: #e04078;
+  color: #8a3d4d;
   font-size: 20px;
 }
 
-
 /*botao navbar hamburguer*/
-.navbar-toggler{
+.navbar-toggler {
   background-color: black;
   height: 30;
 }
 
-.style_corporate::first-letter {
-  color: white;
-  font-family: "Roboto", ;
+.style_corporate {
+  color: #8a3d4d;
+  font-family: "Roboto";
   font-size: 25px;
-  
 }
 
 .navbar {
   justify-content: center;
   height: 70px;
   width: 100%;
-  font-family: "Roboto", ;
+  font-family: "Roboto";
 }
 
 .mainnav {
@@ -82,18 +74,17 @@ body {
   z-index: 1000;
   justify-content: center;
   height: 70px;
-  font-family: "Roboto", ;
+  font-family: "Roboto";
 }
 .navbar-title {
   text-align: center;
   font-size: 25px;
-  color: #e04078;
+  color: #8a3d4d;
 }
 
 .corporate {
-  font-size: 20px;
-  color: white;
-  border-radius: 30px;
+  font-size: 25px;
+  color: #8a3d4d;
   margin-right: auto;
   padding: 10px;
 }
@@ -127,14 +118,21 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 60px;
-  color: white;
-  font-size: 18px;
+  height: 70px;
+  background-color: white;
+  /* border: 1px solid #000; Espessura, estilo (solid) e cor  */
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Tangerine", ;
+  font-family: "Tangerine", serif;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
 
+.navbar-final a {
+  color: #8a3d4d;
+  padding: 0 20px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
 }
 
 .link_navbar-final {
@@ -168,7 +166,6 @@ body {
   text-align: justify;
   font-size: 19px;
 }
-
 
 .card-image-about {
   max-width: 100%;
@@ -229,13 +226,24 @@ body {
   margin: auto;
 }
 
+.card-image-modal-office {
+  width: 90%;
+  height: 300px;
+  border-radius: 30px;
+  background-image: url("../img/backgroudmodal/img\ offce.jpeg");
+  background-size: cover; /* Faz a imagem cobrir o card */
+  background-position: center; /* Centraliza */
+  background-repeat: no-repeat; /* Evita repetição */
+  margin: auto;
+}
+
 .modal-body {
   font-size: 13px;
   text-align: justify;
 }
 
 .modal-title {
-  font-family: "Tangerine", ;
+  font-family: "Tangerine";
 }
 
 .dropdown-item:hover {
@@ -253,7 +261,6 @@ body {
 .cards-info {
   max-width: 100%;
   margin: auto;
-  
 }
 
 @media (min-width: 50px) and (max-width: 576px) {
@@ -261,11 +268,10 @@ body {
     display: none;
   }
 
-    .card-body {
-  text-align: justify;
-  font-size: 14px;
-}
-
+  .card-body {
+    text-align: justify;
+    font-size: 14px;
+  }
 
   .card-image-about {
     display: none;
@@ -336,20 +342,17 @@ body {
     height: 70px; /* Altura fixa */
   }
 
-  .corporate {
+  /* .corporate {
     font-size: 15px;
-    color: white;
+    color: #e04078;
     border-radius: 30px;
     margin-right: auto;
     padding: 0px;
-    font-family: "Roboto", ;
-  }
+  } */
 
   .corporate {
-    font-family:"Roboto", ;
-    color: white;
-    border-radius: 30px;
-    font-size: 18px;
+    color: #8a3d4d;
+    font-size: 25px;
   }
   .card {
     width: 100%;
@@ -359,14 +362,14 @@ body {
   #about {
     color: black;
     margin-top: 0px;
-    background-color: white;
+    background-image: linear-gradient(45deg, #e5c4cb, white, #e5c4cb, white);
     border-radius: 0;
     height: 360px;
   }
 
   #mission {
     color: black;
-    background-color: white;
+    background-image: linear-gradient(45deg, #e5c4cb, white, #e5c4cb, white);
     margin-top: 0px;
     border-radius: 0;
     height: 450px;
@@ -374,14 +377,13 @@ body {
 
   #vision {
     color: black;
-    background-color: white;
+    background-image: linear-gradient(45deg, #e5c4cb, white, #e5c4cb, white);
     margin-top: 0px;
     border-radius: 0;
     height: 600px;
   }
 
   .card-title {
-    font-family: "Tangerine", ;
     font-size: 25px;
     text-shadow: 4px 4px 4px #aaa;
   }
@@ -468,6 +470,106 @@ body {
     height: 500px;
     right: 0;
   }
+
+  .mission_card {
+    color: #2e2a2b;
+    background-image: linear-gradient(45deg, #e5c4cb, white, #e5c4cb, white);
+    margin-top: 0px;
+    overflow: hidden; /* Garante que nada saia da borda */
+    border-radius: 0;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin-top: 110px;
+  }
+
+  .card-body .button_schendule {
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    margin: auto;
+  }
+
+  .button_schendule {
+    background-color: #ae6271;
+    color: white;
+    height: 35px;
+    justify-content: center;
+  }
+
+  .card-title_services {
+    font-size: 15px;
+    color: #8a3d4d;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-title {
+    font-size: 30px;
+    color: #8a3d4d;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-text_services {
+    font-family: "Tangerine", serif;
+    font-size: 12px;
+    color: #2e2a2b;
+    text-align: center;
+  }
+
+  .cardservices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .card {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    height: 250px;
+  }
+
+  .card-img {
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .navigationarea_card {
+    background-color: #a95b6b;
+    border-radius: 0;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+  }
+  .links a {
+    display: block;
+    color: #d4e6eb; /* Coloca um link embaixo do outro */
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .links p {
+    display: block;
+    color: #d4e6eb; /* Coloca um link embaixo do outro */
+    margin-bottom: 13px;
+    font-size: 20px;
+  }
+
+  .links .labelnavigation {
+    font-size: 25px;
+    font-weight: bolder;
+    display: block; /* Coloca um link embaixo do outro */
+    margin-bottom: 10px;
+    color: #8fa9b1;
+    font-family: "Tangerine", serif;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
@@ -476,13 +578,13 @@ body {
   }
 
   .card-body {
-  text-align: justify;
-  font-size: 18px;
-}
-
-  .slider {
-    display: none;
+    text-align: justify;
+    font-size: 18px;
   }
+
+  /* .slider {
+    display: none;
+  } */
   body {
     margin: 0;
     padding: 0;
@@ -497,6 +599,55 @@ body {
     height: 100%;
   }
 
+  /* start slides */
+
+  .slider {
+    margin: 0 auto;
+    width: 100%; /* Largura fixa */
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: -70px;
+  }
+  .slides {
+    width: 400%; /* Largura fixa */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slide input {
+    display: none;
+  }
+
+  .slide {
+    width: 23;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    transition: 5s;
+  }
+  .slide .slidesimg {
+    width: 670px;
+    height: 560px;
+    background-size: cover; /* Faz a imagem cobrir o card */
+    background-position: center; /* Centraliza */
+    background-repeat: no-repeat; /* Evita repetição */
+  }
+
+  #rd1:checked ~ .slideone {
+    margin-left: 0;
+  }
+  #rd2:checked ~ .slideone {
+    margin-left: -50%;
+  }
+  #rd3:checked ~ .slideone {
+    margin-left: -100%;
+  }
+  #rd4:checked ~ .slideone {
+    margin-left: -150%;
+  }
+  /* end slides */
+
   .card {
     width: 100%;
     height: 700px;
@@ -505,14 +656,14 @@ body {
   #about {
     color: black;
     margin-top: 0px;
-    background-color: white;
+    background-image: linear-gradient(45deg, #e5c4cb, white, #e5c4cb, white);
     border-radius: 0;
-    height: 600px;
+    height: 400px;
   }
 
   #mission {
     color: black;
-    background-color: white;
+    background-image: linear-gradient(45deg, #e5c4cb, white, #e5c4cb, white);
     margin-top: 0px;
     border-radius: 0;
     height: 500px;
@@ -520,17 +671,15 @@ body {
 
   #vision {
     color: black;
-    background-color:white;
+    background-image: linear-gradient(45deg, #e5c4cb, white, #e5c4cb, white);
     margin-top: 0px;
     border-radius: 0;
-    height: 700px;
+    height: 500px;
   }
 
   .card-image-about {
-    max-width: 100%;
-    height: 400px;
-    background-image: url("../img/backgroud/bkg\ kitchen\ .jpeg");
-    background-size: cover; /* Faz a imagem cobrir a área [1] */
+    height: 0px;
+    background-size: cover;
   }
   .card-image-mission {
     max-width: 120%;
@@ -557,7 +706,6 @@ body {
     text-align: center;
     color: goldenrod;
     font-size: 30px;
-    
   }
 
   .navbar {
@@ -566,7 +714,7 @@ body {
     margin-bottom: 20px;
     text-align: right;
     border-radius: 0px;
-    font-family: "Roboto",;
+    font-family: "Roboto";
   }
 
   .offcanvas-body {
@@ -576,6 +724,104 @@ body {
   #offcanvasDarkNavbar {
     width: 250px; /* Largura fixa */
     height: 400px;
+  }
+
+  .mission_card {
+    color: #2e2a2b;
+    background-image: linear-gradient(45deg, #e5c4cb, white, #e5c4cb, white);
+    margin-top: 0px;
+    overflow: hidden; /* Garante que nada saia da borda */
+    border-radius: 0;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .cardservices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .card-title_services {
+    font-size: 15px;
+    color: #8a3d4d;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-title {
+    font-size: 30px;
+    color: #8a3d4d;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-text_services {
+    font-family: "Tangerine", serif;
+    font-size: 12px;
+    color: #2e2a2b;
+    text-align: center;
+  }
+
+  .card {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    height: 250px;
+  }
+
+  .card-img {
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card-body .button_schendule {
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    margin: auto;
+  }
+
+  .button_schendule {
+    background-color: #ae6271;
+    color: white;
+    height: 35px;
+    justify-content: center;
+  }
+  .navigationarea_card {
+    background-color: #a95b6b;
+    border-radius: 0;
+    width: 100%;
+    height: 700px;
+    padding: 10px;
+  }
+  .links a {
+    display: block;
+    color: #d4e6eb; /* Coloca um link embaixo do outro */
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .links p {
+    display: block;
+    color: #d4e6eb; /* Coloca um link embaixo do outro */
+    margin-bottom: 13px;
+  }
+
+  .links .labelnavigation {
+    font-size: 25px;
+    font-weight: bolder;
+    display: block; /* Coloca um link embaixo do outro */
+    margin-bottom: 10px;
+    color: #8fa9b1;
+    font-family: "Tangerine", serif;
   }
 }
 
@@ -596,9 +842,9 @@ body {
   }
 
   .card-body {
-  text-align: justify;
-  font-size: 15px;
-}
+    text-align: justify;
+    font-size: 15px;
+  }
 
   body {
     margin: 0;
@@ -610,22 +856,20 @@ body {
 
   .navbar-title {
     text-align: center;
-    color: white;
+    color: #8a3d4d;
     font-size: 20px;
-     font-family: "Roboto",;
-    
+    font-family: "Roboto";
   }
 
-.navbar-title::first-letter {
-  color: white;
-  font-family: "Roboto", ;
-  font-size: 25px;
-}
+  .navbar-title::first-letter {
+    color: #8a3d4d;
+    font-family: "Roboto";
+    font-size: 25px;
+  }
 
   .corporate {
-    font-size: 20px;
-    border-radius: 30px;
-    color:white;
+    font-size: 25px;
+    color: #8a3d4d;
     margin-right: auto;
     padding: 10px;
   }
@@ -651,7 +895,7 @@ body {
     background-color: white;
     color: black;
   }
- .card {
+  .card {
     width: 33%;
     height: 550px;
   }

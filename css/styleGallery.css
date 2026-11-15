@@ -5,7 +5,7 @@ body {
 }
 
 /*botao navbar hamburguer*/
-.navbar-toggler{
+.navbar-toggler {
   background-color: black;
 }
 
@@ -13,7 +13,7 @@ body {
   margin-top: 70px;
   width: 100%;
   min-height: 100%;
-  font-family: "Roboto",;
+  font-family: "Roboto";
 }
 
 .mainnav {
@@ -24,7 +24,7 @@ body {
   z-index: 1000;
   justify-content: center;
   height: 70px;
-  font-family: "Roboto",;
+  font-family: "Roboto";
 }
 
 .navbar {
@@ -36,28 +36,31 @@ body {
   text-align: center;
   color: #e04078;
   font-size: 20px;
- 
 }
 
-.navbar-brand{
-  color:white;
-  font-family: "Roboto",;
+.navbar-brand {
+  color: white;
+  font-family: "Roboto";
   font-size: 18px;
-  
 }
 
 .style_corporate::first-letter {
-  color:white;
-  font-family: "Roboto",;
+  color: #8a3d4d;
+  font-family: "Roboto";
   font-size: 25px;
 }
 
+.style_corporate {
+  color: #8a3d4d;
+  font-family: "Roboto";
+  font-size: 25px;
+}
 
 .corporate {
   font-size: 18px;
   margin-right: auto;
   border-radius: 30px;
-  color: white;
+  color: #8a3d4d;
 }
 
 .navbarindex {
@@ -95,20 +98,17 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-family: "Tangerine", ;
-
+  font-family: "Tangerine";
 }
 .icone_navbar-final {
- color: white;
+  color: #8a3d4d;
   font-size: 20px;
-  text-shadow: 2px 2px 2px #1c1919;
 }
 
-.navbar_final_text{
-   color: white;
-  font-family: "Roboto", ;
+.navbar_final_text {
+  color: #8a3d4d;
+  font-family: "Roboto";
   font-size: 18px;
-  
 }
 .navbar-final a {
   color: black;
@@ -125,7 +125,6 @@ body {
 .card-title {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
- 
 }
 
 .card-text {
@@ -138,7 +137,7 @@ body {
   border: 3px solid #0e0d0d;
   background-color: white;
   border-radius: 15px;
-   margin: 0;
+  margin: 0;
   display: grid;
   place-items: center; /* Atalho para centralizar nos dois eixos */
   min-height: 0vh;
@@ -162,8 +161,8 @@ img {
   border-radius: 5px;
 }
 
-.card-body{
-   margin: 0;
+.card-body {
+  margin: 0;
   display: grid;
   place-items: center; /* Atalho para centralizar nos dois eixos */
   min-height: 0vh;
@@ -174,7 +173,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-   margin: 0;
+  margin: 0;
   display: grid;
   place-items: center; /* Atalho para centralizar nos dois eixos */
   min-height: 0vh;
@@ -192,14 +191,12 @@ img {
   margin: 0;
   margin: auto;
   gap: 1px;
-  
 }
 
 @media (min-width: 50px) and (max-width: 576px) {
   body {
     margin: 0;
-    padding: 0;
-    background-color: white
+    background-image: linear-gradient(45deg, #e5c4cb, white, #e5c4cb, white);
   }
   .mainnav {
     display: none;
@@ -226,17 +223,16 @@ img {
   }
   .corporate {
     font-size: 18px;
-
     margin-right: auto;
     border-radius: 30px;
-    color: white;
+    color: #8a3d4d;
   }
   .nav-link {
     font-size: 16px;
   }
   .corporate {
     font-size: 17px;
-    color: white;
+    color: #8a3d4d;
   }
   .offcanvas-body {
     text-align: right;
@@ -246,7 +242,7 @@ img {
     width: 250px; /* Largura fixa */
     height: 450px;
   }
- img {
+  img {
     width: 170px;
     height: 190px;
     object-fit: cover;
@@ -312,6 +308,35 @@ img {
   .card-title {
     font-size: 10px;
   }
+
+  .navigationarea_card {
+    background-color: #a95b6b;
+    border-radius: 0;
+    width: 100%;
+    height: 400px;
+    text-align: left;
+  }
+  .links a {
+    display: block;
+    color: #d4e6eb; /* Coloca um link embaixo do outro */
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .links p {
+    display: block;
+    color: #d4e6eb; /* Coloca um link embaixo do outro */
+    margin-bottom: 13px;
+  }
+
+  .links .labelnavigation {
+    font-size: 25px;
+    font-weight: bolder;
+    display: block; /* Coloca um link embaixo do outro */
+    margin-bottom: 10px;
+    color: #8fa9b1;
+    font-family: "Tangerine", serif;
+  }
 }
 
 @media (min-width: 575px) and (max-width: 991px) {
@@ -320,8 +345,7 @@ img {
   }
   body {
     margin: 0;
-    padding: 0;
-    background-color: white;
+    background-image: linear-gradient(45deg, #e5c4cb, white, #e5c4cb, white);
   }
 
   .container {
@@ -344,7 +368,7 @@ img {
   }
   .corporate {
     font-size: 18px;
-    color:white;
+    color: #8a3d4d;
     border-radius: 50px;
     margin-right: auto;
     padding: 10px;
@@ -392,7 +416,7 @@ img {
     justify-content: center;
     text-align: center;
   }
-  
+
   img {
     width: 200px; /* Largura fixa */
     height: 200px; /* Altura fixa */
@@ -444,6 +468,35 @@ img {
   }
   img:hover {
     transform: none;
+  }
+
+  .navigationarea_card {
+    background-color: #a95b6b;
+    border-radius: 0;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+  }
+  .links a {
+    display: block;
+    color: #d4e6eb; /* Coloca um link embaixo do outro */
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .links p {
+    display: block;
+    color: #d4e6eb; /* Coloca um link embaixo do outro */
+    margin-bottom: 13px;
+  }
+
+  .links .labelnavigation {
+    font-size: 25px;
+    font-weight: bolder;
+    display: block; /* Coloca um link embaixo do outro */
+    margin-bottom: 10px;
+    color: #8fa9b1;
+    font-family: "Tangerine", serif;
   }
 }
 
